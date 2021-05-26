@@ -79,11 +79,11 @@ function App() {
   }
 
   const calculateWin = (x, y, z) => {
-    if (x == y && y == z) {
+    if (x === y && y === z) {
       return x === 7 ? 10 : 5.0;
     }
   
-    if (x == y || y == z || z == x) {
+    if (x === y || y === z || z === x) {
       return 0.5;
     }
   
