@@ -1,0 +1,20 @@
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  color: #fff;
+  background-color: #3F51B5;
+}
+
+.content {
+  width: 500px;
+  margin: 10px auto;
+  overflow: auto;
+  max-height: auto;
+  flex-grow: 1;
+  border: 1px solid steelblue;
+  padding: 30px 15px;
+  border-radius: 5px;
+}
