@@ -18,3 +18,15 @@ footer {
   padding: 30px 15px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 380px) {
+  .content {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: 300px;
+  }
+
+}

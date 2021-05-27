@@ -153,7 +153,7 @@ function App() {
               {
                 title: 'Date',
                 field: 'dates',
-                render: (rowData) => new Date(rowData.dates).toDateString(),
+                // render: (rowData) => new Date(rowData.dates).toDateString(),
               },
             ]}
             data={games}
